@@ -10,3 +10,17 @@ console.table(objecto json) -- Nos muestra una interface mucho más amigable par
 //ARREGLOS JAVASCRIPT
 
 El operador spread permite copiar arreglos sin mutar los datos del arreglo "padre"
+Las dos formas más comunes de reccorer arreglos es con los metodos "foreach" y "map", ambos son muy parecidos pero funcionan diferente,
+podríamos usar foreach cuando no necesitamos que una matriz sea devuelta y podríamos usar map cuando necesitamos una nueva matriz sin 
+mutar la matriz principal
+
+//FUNCIONES 
+
+Es recomendado guardar funciones a modo de constante para que esta no se pisen con otras variables
+
+//DESESTRUCTURACIÓN DE OBJETOS && ARREGLOS
+
+La desestructuración de objetos y arreglos nos permite llevar un código mucho más limpio y organizado, adicional nos permite ingresar a los valores de 
+los parametros de un objeto de manera sencilla
+
+
