@@ -1,0 +1,12 @@
+//BABEL
+
+Babel permite el uso de javascript moderno en navegadores antiguos o que aún no tienen compatibilidad con ciertas funciones o códigos modernos;
+
+
+//OBJETOS JAVASCRIPT 
+
+console.table(objecto json) -- Nos muestra una interface mucho más amigable para la identificación de la data en formato de columnas y filas;
+
+//ARREGLOS JAVASCRIPT
+
+El operador spread permite copiar arreglos sin mutar los datos del arreglo "padre"
