@@ -23,4 +23,9 @@ Es recomendado guardar funciones a modo de constante para que esta no se pisen c
 La desestructuración de objetos y arreglos nos permite llevar un código mucho más limpio y organizado, adicional nos permite ingresar a los valores de 
 los parametros de un objeto de manera sencilla
 
+//ASYNC, AWAIT & PROMESAS
+
+Si hago un fetch directo sin el await me devuelve una promesa mientras que con await me devuelve una respuesta 
+
+
 
