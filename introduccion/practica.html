@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        section{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 100%;
+        }
+        form > input{
+            width: 100%;
+            max-width: 300px;
+            border: 1px solid #050505;
+            padding: 15px 10px;
+            border-radius: 5px;
+            outline: inherit;
+            margin-top: 10px;
+            transition: .3s box-shadow ease;
+        }
+        form > input:focus{
+            box-shadow: 0px 1px 2px rgb(16 24 40 / 5%), 0px 0px 0px 4px #dae8fd;
+        }
+        form > label{
+            font-size: 14px;
+            color: #050505;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+        input, label{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .list-items{
+            width: 100%;
+            max-width: 300px;
+            border: 1px solid #050505;
+            display: flex;
+            flex-direction: column;
+            margin-top: 10px;
+            border-radius: 5px;
+            overflow: auto;
+            height: 0;
+            opacity: 0;
+            pointer-events: none;
+            transition: .5s ease;
+            transition-property: height, opacity;
+        }
+        .list-items.active{
+            height: 150px;
+            opacity: 1;
+            pointer-events: all;
+        }
+        .list-items::-webkit-scrollbar-thumb {
+           background: #CCCCCA;
+            border-radius: 50px;
+        }
+        .list-items::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 5px transparent;
+            background: transparent;
+        }
+        .list-items::-webkit-scrollbar {
+            width: 8px;
+            height: 5px;
+            background-color: transparent;
+        }
+        .list-items label{
+            width: 100%;
+            padding: 15px 10px;
+        }
+        .list-items label:hover{
+            background-color: azure;
+        }
+        .list-items input{
+            display: none;
+        }
+        .list-items label:first-child{
+            border-radius: 5px 5px 0 0;
+        }
+        .list-items label:last-child{
+            border-radius: 0 0 5px 5px;
+        }
+        .list-items .error{
+            text-align: center;
+            color: #969696;
+            display: none;
+            font-size: 14px;
+        }
+        .list-items .error.active{
+            display: block;
+        }
+        .list-items .error:hover{
+            background-color: transparent;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <form action="" autocomplete="off">
+            <label for="country">Escriba el país</label>
+            <input type="text" id="country" name="country">
+            <div class="list-items" id="list-items">
+                <label class="error">No hay coincidencias</label>
+            </div>
+        </form>
+    </section>
+    <script src="/introduccion/fundamentos js/practica/mainscript.js"></script>
+</body>
+</html>
