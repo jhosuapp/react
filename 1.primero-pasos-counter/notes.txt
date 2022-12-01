@@ -1,0 +1,5 @@
+//FRAGMENT
+
+Podemos importar este modulo, el cual nos permite encerrar varios hijos de manera independiente en un elemento padre sin pintar el elemento padre en el DOM,
+Para usarlo solo debemos escribir <FRAGMENT></FRAGMENT>, este método es poco común ya que React ha implementado una forma más sencilla de usar esta funcionalidad,
+simplemente usando <></>
