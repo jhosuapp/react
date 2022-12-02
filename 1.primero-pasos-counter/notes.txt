@@ -3,3 +3,15 @@
 Podemos importar este modulo, el cual nos permite encerrar varios hijos de manera independiente en un elemento padre sin pintar el elemento padre en el DOM,
 Para usarlo solo debemos escribir <FRAGMENT></FRAGMENT>, este método es poco común ya que React ha implementado una forma más sencilla de usar esta funcionalidad,
 simplemente usando <></>
+
+//PROP && PROPTYPES
+
+Las props son los argumentos que se pasan por nuestro functional component, estos permiten el funcionamiento de nuestro componente y de igual manera permite reusar código
+
+Para usar PropTypes debemos importar una librería de la siguiente manera: import PropTypes from "prop-type" y luego debemos instalar desde la terminal ya sea 
+con npm o yarn los modulos de esta funcionalidad con el comando yarn add prop-types instalamos este modulo
+
+ya para usarlo e indicar el tipado de nuestras props, llamamos primero nuestro functional component y luego escribimos el argumento con el que importamos el modulo, abrimos llaves
+y escribimos las props de functional component
+
+Los propTypes sirven para indicar el tipo de dato de nuestra prop e indicar si es requerido o no con el comando "isRequired"
