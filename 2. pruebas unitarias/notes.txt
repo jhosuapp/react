@@ -1,0 +1,14 @@
+AAA
+Arrange (arreglar)
+Act (actuar)
+Assert (afirmar)
+
+
+//JEST
+
+-Es la biblioteca que vamos a usar para hacer el testing de nuestras aplicaciones
+-Para instalarlo con yarn podemos ejecutar yarn add --dev jest y para instalarlo con npm es npm install --save-dev jest
+-Adicional a ello debemos correr el script dentro de nuestro package.json, en la parte de scripts debemos 
+añadir 'test(puede usar el nombre que quiera)': 'jest --watchAll(sirve para ver los cambios en tiempo real)';
+-Para installar el autofill de los comandos de jest debemos ejecetuar "npm install --save-dev jest", luego debemos añadir en nuestra carpeta
+raíz un archivo llamado "jsconfig.json" y dentro de este archivo debemos pegar {"typeAcquisition": { "include" : ["jest"] }}
