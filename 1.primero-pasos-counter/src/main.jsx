@@ -5,6 +5,8 @@ import App from './components/FirtsApp';
 import { HelloWorld } from './components/HomeWork';
 import { PropsReact } from "./components/Props";
 import { CounterApp  } from "./components/CounterApp";
+//EVENTOS 
+import { EventClick } from "./components/Events";
  
 import "./scss/main.scss";
 
@@ -14,5 +16,6 @@ ReactDOM.createRoot( document.getElementById('root') ).render(
         <HelloWorld />
         <PropsReact name="Jhosua" age={21} /> */}
         <CounterApp value={0} />
+        <EventClick initialState={10} />
     </React.StrictMode>
 );
