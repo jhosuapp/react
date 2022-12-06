@@ -15,3 +15,10 @@ ya para usarlo e indicar el tipado de nuestras props, llamamos primero nuestro f
 y escribimos las props de functional component
 
 Los propTypes sirven para indicar el tipo de dato de nuestra prop e indicar si es requerido o no con el comando "isRequired"
+
+
+//RENDERIZACIÓN DE COMPONENTES
+
+En react existe una funcionalidad llamada useState, esta se puede importar usando el siguiente comando " import { useState } from 'react' "
+Esta funcionalidad hace que cuando el estado de esta misma funcionalidad cambie se renderize todo el functional component
+
