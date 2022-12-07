@@ -1,2 +1,0 @@
-//COMPONENTES
-Es una pieza de código encapsulada que tiene una función especifica adicional puede tener un estado
