@@ -10,7 +10,7 @@ describe('pruebas en <micomponente />', ()=>{
     
         //OBSERVAR EL COMPORTAMINETO ESPERADO
         // expect( message1 ).toBe( message2 );
-        expect(message1).toBe( message2 );
+        expect(message1).toBe(message2);
         
     });
     
